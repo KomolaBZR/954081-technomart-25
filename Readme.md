@@ -1,7 +1,8 @@
 # Личный проект «Техномарт»
 
 * Студент: [Komola Benzinger](https://up.htmlacademy.ru/htmlcss/25/user/954081).
-* Наставник: `Неизвестно`.
+* Наставник: [Марина
+Садуллаева](https://up.htmlacademy.ru/htmlcss/25/user/504763).
 
 ---
 
