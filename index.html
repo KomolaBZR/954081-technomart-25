@@ -31,7 +31,31 @@
         +7 (812) 555-05-55 <br>г.Санкт-Петербург, ул. Конюшенная, д. 19/8
       </div>
       <div class="log-in">
-        <a href="#" class="log-in-button">Вход</a>
+        <a class="log-in-link" href="log-in.html">Вход</a>
+        <section class="modal modal-log-in">
+          <h2>Личный кабинет</h2>
+          <p>Введите свой логин и пароль.</p>
+          <form class="log-in-form" action="https://echo.htmlacademy.ru" method="post">
+            <p>
+              <label class="visually-hidden" for="user-log-in">Логин</label>
+              <input class="log-in-icon-user" id="user-log-in" type="text" name="log-in" placeholder="Логин">
+            </p>
+            <p>
+              <label class="visually-hidden" for="user-password">Пароль</label>
+              <input class="log-in-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+            </p>
+            <p class="log-in-password-info">
+              <label class="log-in-checkbox">
+                <input type="checkbox" name="remember">
+                Запомните меня
+              </label>
+              <a class="restore" href="#">Я забыл пароль!</a>
+            </p>
+            <button class="button" type="submit">
+              Войти
+            </button>
+          </form>
+        </section>
       </div>
       <div class="registration">
         <a href="#" class="registration-button">Регистрация</a>
@@ -87,7 +111,20 @@
       <h2>Контакты</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис</p>
       <img src="img/map-index.jpg" width="300" height="158">
-      <a class="button" href="contactuswhenyoulost.html">Заблудились? Напишите нам!</a>
+      <p class="button" href="contact-us-when-you-lost.html">Заблудились? Напишите нам!</p>
+      <form class="contact-us-when-youlost.html" action="https://echo.htmlacademy.ru" method="post">
+        <p class="contact-item">
+          <label for="contact-name">Ваше имя</label>
+          <input id="contact-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+        </p>
+        <p class="appointment-item">
+          <label for="appointment-email">Ваш e-mail:</label>
+          <input id="appointment-email" type="tel" name="phone" value="" placeholder="email@example.com">
+        </p>
+        <p><textarea name="comment" id="comment" cols="48" rows="8" placeholder="В свободной форме">Текст письма:</textarea>
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
     </section>
   </main>
   <footer class="main-footer">
