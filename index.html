@@ -10,15 +10,17 @@
       <a class="main-header-logo">
         <img src="img/logo-technomart.svg" width="108" height="18" alt="«Техномарт»">
       </a>
-      <div class="search">
-        <a href="#" class="search-link">Поиск</a>
-      </div>
+      <form>
+        <p>
+          <input type="submit" value="Поиск:">
+        </p>
+      </form>
       <ul>
         <li>
-          <a href="#" class="bookmark-link">Закладки</a>
+          <a href="#" class="bookmark-link">Закладки:0</a>
         </li>
         <li>
-          <a href="#" class="basket-link">Корзина</a>
+          <a href="#" class="basket-link">Корзина:0</a>
         </li>
       </ul>
       <div class="place-your-order-link">
@@ -32,7 +34,7 @@
       </div>
       <div class="log-in">
         <a class="log-in-link" href="log-in.html">Вход</a>
-        <section class="modal modal-log-in">
+        <section class="modal modal-log-in" class="visually-hidden">
           <h2>Личный кабинет</h2>
           <p>Введите свой логин и пароль.</p>
           <form class="log-in-form" action="https://echo.htmlacademy.ru" method="post">
@@ -110,9 +112,9 @@
     <section class="contacts">
       <h2>Контакты</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис</p>
-      <img src="img/map-index.jpg" width="300" height="158">
+      <img src="img/map-index.jpg" width="300" height="158" alt="г.Санкт-Петербург,ул. Конюшенная,д.19/8">
       <p class="button" href="contact-us-when-you-lost.html">Заблудились? Напишите нам!</p>
-      <form class="contact-us-when-youlost.html" action="https://echo.htmlacademy.ru" method="post">
+      <form class="contact-us-when-you-lost.html" action="https://echo.htmlacademy.ru" method="post">
         <p class="contact-item">
           <label for="contact-name">Ваше имя</label>
           <input id="contact-name" type="text" name="name" value="" placeholder="Имя Фамилия">
@@ -121,7 +123,8 @@
           <label for="appointment-email">Ваш e-mail:</label>
           <input id="appointment-email" type="tel" name="phone" value="" placeholder="email@example.com">
         </p>
-        <p><textarea name="comment" id="comment" cols="48" rows="8" placeholder="В свободной форме">Текст письма:</textarea>
+        <p><b>Текст письма:</b></p>
+        <p><textarea name="comment" id="comment" cols="48" rows="8" placeholder="В свободной форме">В свободной форме</textarea>
         </p>
         <button class="button" type="submit">Отправить</button>
       </form>
