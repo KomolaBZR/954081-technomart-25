@@ -1,0 +1,416 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: none;
+
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header-top-navigation{
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.main-header-logo {
+  background-color: #EE3643;
+}
+
+.main-navigation {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+  background-color: #32425C;
+  box-shadow: inset 0px -5px 0px #293449;
+}
+
+.main-header-stuff {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.order-form {
+  background-color: #63a63e;
+}
+
+
+.search {
+  font-size: 17px;
+  line-height: 18px;
+  color: #F2F2F2;
+  background-color: #293449;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+  color: #EE3643;
+  background-color: #ffffff;
+  text-align: left;
+  text-transform: none;
+}
+
+.contacts-phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #EE3643;
+  background-color: #F3F7F9;
+}
+
+.contacts-address {
+  font-size: 14px;
+  line-height: 14px;
+  color: #32425C;
+  background-color: #ffffff;
+  text-transform: capitalize;
+}
+
+
+
+.log-in-form input[type="text"],
+.log-in-form input[type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: capitalize;
+
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
+
+.log-in-form input:focus {
+  border-color: #663d15;
+}
+
+.log-in-checkbox:hover,
+.log-in-checkbox:focus {
+  color: #663d15;
+}
+
+
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
+
+
+.main-header-top-navigation,
+.main-navigation {
+  list-style: none;
+}
+
+.main-header-top-navigation a,
+.main-navigation a {
+  color: #ffffff;
+}
+
+.main-header-top-navigation a:hover,
+.main-header-top-navigation a:focus,
+.main-navigation a:hover,
+.main-navigation a:focus {
+  background-color: #242424;
+}
+
+.bookmark-basket-links,
+.site-navigation {
+  list-style: none;
+}
+
+
+.log-in-link,
+.log-in-username,
+.registration-button {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.my-order-and-account {
+  list-style: none;
+}
+
+
+.catalog-assortment-of-goods-list {
+  list-style: none;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.page-title  {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #32425C;
+}
+
+.filters {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+.about-company {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.option-service {
+  list-style: none;
+}
+
+ul.option-service > li:before {
+  content: "-";
+}
+
+.option-service {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  color: #000000;
+}
+
+
+.button-in-detail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #EE3643;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.contact-us  {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+.pick-up  {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+
+.button-if-you-lost  {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #EE3643;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+
+.contact-us-when-you-lost-form input[type="text"],
+.contact-us-when-you-lost-form input[type="tel"],
+.contact-us-when-you-lost-form textarea {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #A9A9A9;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+.contact-us-when-you-lost-form {
+  background: rgba(0, 0, 0, 0.0001);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.75);
+}
+
+.contact-us-when-you-lost-form input:focus {
+  border-color: #663d15;
+}
+
+.button-send {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #EE3643;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.main-footer-logo {
+  background-color: #EE3643;
+}
+
+
+
+.footer-contacts {
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #F3F7F9;
+}
+
+.main-footer  {
+  background-color: #32425C;
+}
+
+.copyright-footer-social-feedback {
+  font-size: 16px;
+  line-height: 18px;
+  background-color: #293449;
+}
+
+.social-button,
+.copyright,
+.style-1,
+.footer-contacts,
+.footer-copyright,
+.footer-feedback {
+  color: #ffffff;
+}
+
+.site-footer-navigation,
+.footer-social-list {
+  list-style: none;
+}
+
+.button-link-footer,
+.button-footer-mail,
+.style-2 {
+  color: #ffd180;
+}
+
+.legend {
+  font-family: PT Sans;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter-option {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter-button {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+
+
+.catalog-category {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+
+.catalog-item-title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.old-price {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.new-price {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: #EE3643;
+  color: #FFFFFF;
+}
