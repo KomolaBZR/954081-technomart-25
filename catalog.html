@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Интернет-магазин строительных материалов и инструментов для ремонта «Техномарт»</title>
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -14,19 +14,20 @@
         <a class="main-header-logo" href="index.html">
           <img src="img/logo-technomart.svg" width="108" height="18" alt="«Техномарт»">
         </a>
-        <div class="search">
-          <a href="#" class="search-link">Поиск:</a>
-        </div>
+        <form class="main-search" action="#" method="get">
+          <input id="search" type="search" name="search" placeholder="Поиск:">
+          <label class="search" for="search"> </label>
+        </form>
         <ul class="bookmark-basket-links">
           <li>
-            <a href="#" class="bookmark-link">Закладки:0</a>
+            <a href="bookmark.html" class="bookmark-link">Закладки: 0</a>
           </li>
           <li>
-            <a href="#" class="basket-link" class="not-empty">Корзина:10</a>
+            <a href="basket.html" class="basket-link" class="not-empty">Корзина: 10</a>
           </li>
         </ul>
         <div class="place-your-order-link">
-          <a href="#" class="order-form">Оформить заказ</a>
+          <a href="order-form.html" class="order-form">Оформить заказ</a>
         </div>
       </nav>
       <div class="subtitle">
@@ -95,6 +96,12 @@
     <h2 class="page-title">Перфораторы</h2>
     <section class="filters">
       <h3 class="filters">Фильтр:</h3>
+      <div class="half-width-1">
+        <label for="price">Цена:</label><br>
+        <input id="price" type="range" min="0" max="30000" value="26000"><br>
+        <input id="weight" type="number" min="0" max="30000" value="0"> -
+        <input id="weight" type="number" min="0" max="30000" value="30000"><br>
+      </div>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
           <legend>Производители:</legend>
@@ -138,6 +145,24 @@
           Показать
         </button>
       </form>
+    </section>
+    <section class="sorting">
+      <h2>Сортировка:</h2>
+      <ul class="sorting-list">
+        <li class="sorting-item"><a class="active" href="#price" aria-label="Сортировка по цене">По цене</a></li>
+        <li class="sorting-item"><a href="#type" aria-label="Сортировка по типу">По типу</a></li>
+        <li class="sorting-item"><a href="#functional" aria-label="Сортировка по рейтенгу">По функционалу</a></li>
+      </ul>
+      <a class="button-sort down-up" href="#sort-down-up" aria-label="Сортировка сверху-вниз">
+        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+          <path fill="#231F20" d="M5.5 0L0 10h11z" />
+        </svg>
+      </a>
+      <a class="button-sort top-down active" href="#sort-top-down" aria-label="Сортировка снизу-вверх">
+        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+          <path fill="#231F20" d="M5.5 10L0 0h11" />
+        </svg>
+      </a>
     </section>
     <section class="catalog">
       <ul class="catalog-list">
