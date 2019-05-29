@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-
+  width: 1200px;
+  height: 3151px;
   font-family: "Cuprum", "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -25,11 +26,95 @@ a {
   line-height: 18px;
   color: #ffffff;
   background-color: #293449;
+  /*width: 1200px;
+  height: 42px;
+  margin: 0 auto;
+  padding: 0 10px;*/
 }
 
 .main-header-logo {
   background-color: #EE3643;
+  position: relative;
+  width: 220px;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0 8px 0;
+  position: relative;
 }
+
+
+.main-header-top-navigation a:first-child :hover {
+  background-color: #CA2C37;
+  position: relative;
+  width: 220px;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0 8px 0;
+}
+
+.main-search input[placeholder="Поиск:"] {
+  width: 270px;
+  border: none;
+  padding: 12px 0 12px 50px;
+  font-size: 17px;
+  line-height: 18px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #293449;
+  background-image: url("../img/icon-search.svg");
+  background-repeat: no-repeat;
+}
+
+
+.bookmark-link a {
+    width: 105px;
+    padding: 12px 0 12px 45px;
+    font-size: 17px;
+    line-height: 18px;
+    background-image: url("../img/icon-bookmark.svg");
+    background-repeat: no-repeat;
+}
+
+.bookmark-link a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.bookmark-link a:hover {
+  background-color: #212A3A;
+}
+
+.bookmark-link a:focus {
+  background-color: #161D29;
+}
+
+.basket-link a:hover {
+  background-color: #212A3A;
+}
+
+.basket-link a:focus {
+  background-color: #161D29;
+}
+
+.basket-link a {
+position: relative;
+width: 100px;
+padding: 12px 0 12px 50px;
+font-size: 17px;
+line-height: 18px;
+background-image: url("../img/icon-cart.svg");
+background-repeat: no-repeat;
+}
+
+.basket-link a {
+color: #ffffff;
+text-decoration: none;
+text-transform: capitalize;
+}
+
 
 .main-navigation {
   font-size: 17px;
@@ -50,6 +135,24 @@ a {
   background-color: #63a63e;
 }
 
+
+.place-your-order-link a:hover {
+  width: 150px;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 17px;
+  line-height: 18px;
+  background-color: #5FBB2D;
+}
+
+.place-your-order-link a:focus {
+  width: 150px;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 17px;
+  line-height: 18px;
+  background-color: #518534;
+}
 
 .search {
   font-size: 17px;
@@ -126,12 +229,7 @@ a {
   color: #ffffff;
 }
 
-.main-header-top-navigation a:hover,
-.main-header-top-navigation a:focus,
-.main-navigation a:hover,
-.main-navigation a:focus {
-  background-color: #242424;
-}
+
 
 .bookmark-basket-links,
 .site-navigation {
@@ -147,6 +245,27 @@ a {
   color: #000000;
   background-color: #ffffff;
 }
+
+
+.main-navigation a:hover {
+  align-items: center;
+  background-color: #293449;
+  font-size: 17px;
+  margin-top: 38px;
+  padding: 0 23px;
+  border-bottom: 5px solid #293449;
+  }
+
+  .main-navigation a:focus {
+    align-items: center;
+    background-color: #8E939C;
+    font-size: 17px;
+    margin-top: 38px;
+    padding: 0 23px;
+    border-bottom: 5px solid #8E939C;
+    }
+
+
 
 .my-order-and-account {
   list-style: none;
@@ -322,7 +441,7 @@ ul.option-service > li:before {
 
 .social-button,
 .copyright,
-.style-1,
+.footer-first-level-navigation,
 .footer-contacts,
 .footer-copyright,
 .footer-feedback {
@@ -336,7 +455,7 @@ ul.option-service > li:before {
 
 .button-link-footer,
 .button-footer-mail,
-.style-2 {
+.footer-second-level-navigation {
   color: #ffd180;
 }
 
