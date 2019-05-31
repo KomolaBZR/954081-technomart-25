@@ -563,10 +563,10 @@ ul {
 
 .company h2 {
   font-size: 30px;
-line-height: 30px;
-text-transform: uppercase;
-color: #000000;
-margin: 28px 0;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 28px 0;
 }
 
 
@@ -674,13 +674,13 @@ margin: 28px 0;
 
 .main-footer-logo {
   background-color: #EE3643;
-    padding-top: 22px;
-    padding-right:41px;
-    padding-bottom: 22px;
-    padding-left: 41px;
-    font-size: 18px;
-    text-align: center;
-    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+  padding-top: 22px;
+  padding-right:41px;
+  padding-bottom: 22px;
+  padding-left: 41px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
 }
 
 
@@ -719,7 +719,7 @@ margin: 28px 0;
 
 .site-footer-navigation  {
   font-size: 18px;
-line-height: 24px;
+  line-height: 24px;
 }
 
 .footer-first-level-navigation:focus {
@@ -736,10 +736,10 @@ line-height: 24px;
 }
 
 .social-button svg {
-width: 22px;
-height: 22px;
-font-size: 0;
-border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 0;
+  border-radius: 50%;
 }
 
 .social-button svg:active{
@@ -846,10 +846,10 @@ border-radius: 50%;
 }
 
 .bookmarks {
-    height: 32px;
-    border: 3px solid #63A63A;
-    background-color: #ffffff;
-    color: #32425c;
+  height: 32px;
+  border: 3px solid #63A63A;
+  background-color: #ffffff;
+  color: #32425c;
 }
 
 .button-seletions.buy:hover {
@@ -870,97 +870,97 @@ border-radius: 50%;
 
 .pagination-item a{
   font-family: "PT Sans";
-font-size: 13px;
-line-height: 18px;
-color: #000000;
-background-color: #FFFFFF;
-text-transform: uppercase;
-color: #000000;
-border: 1px solid #e5e5e5;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid #e5e5e5;
 }
 
 .pagination-list .pagination-item-current {
   width: 36px;
   height: 36px;
-    background-color: #EE3643;
-    color: #FFFFFF;
-    border: 1px solid #EE3643;
+  background-color: #EE3643;
+  color: #FFFFFF;
+  border: 1px solid #EE3643;
 }
 
 .adding-a-product  {
-border-top: 7px solid #EE3643;
-background-color: #FFFFFF;
-width: 620px;
-height: 275px;
+  border-top: 7px solid #EE3643;
+  background-color: #FFFFFF;
+  width: 620px;
+  height: 275px;
 }
 
 .adding-a-product-subtitle {
-font-size: 30px;
-line-height: 30px;
-align-items: center;
-text-align: center;
-color: #000000;
+  font-size: 30px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 .adding-a-product  a:first-child {
-font-size: 14px;
-line-height: 18px;
-text-transform: uppercase;
-color: #FFFFFF;
-background-color: #EE3643;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #EE3643;
 }
 
 .info-perforator h2 {
-    font-size: 30px;
-    line-height: 30px;
-    margin: 28px 0;
-    color: #000000;
-    text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 28px 0;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .info-perforator p {
-font-family: "PT Sans";
-font-size: 13px;
-line-height: 24px;
-color: #000000;
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .page-title-2 {
-    background-color: #F7F3EC;
-    font-size: 30px;
-    line-height: 30px;
-    text-transform: uppercase;
-    color: #32425C;
+  background-color: #F7F3EC;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #32425C;
 }
 
 .popular-manufactors-link a {
   font-size: 14px;
-line-height: 18px;
-text-transform: uppercase;
-color: #FFFFFF;
-background-color: #EE3643;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #EE3643;
 }
 
 
 .manufactor-name a {
-    margin-top: 18px;
-    border: 1px solid #F2F2F2;
-    height: 143px;
+  margin-top: 18px;
+  border: 1px solid #F2F2F2;
+  height: 143px;
 }
 
 .service h2 {
-    font-size: 30px;
-    line-height: 30px;
-    margin: 28px 0;
-    color: #000000;
-    text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 28px 0;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .service p {
-font-family: "PT Sans";
-font-size: 13px;
-line-height: 24px;
-color: #000000;
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
 
@@ -986,9 +986,9 @@ color: #000000;
 .service-offer a:last-child  {
   background: #FF5357;
   font-size: 14px;
-line-height: 18px;
-text-transform: uppercase;
-color: #FFFFFF;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 
@@ -1003,8 +1003,8 @@ color: #FFFFFF;
 }
 
 .service-offer p {
-font-family: "PT Sans";
-font-size: 13px;
-line-height: 24px;
-color: #000000;
+  font-family: "PT Sans";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
