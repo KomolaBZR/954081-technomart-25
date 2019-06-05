@@ -11,97 +11,103 @@
   <header class="main-header">
     <div class="main-header-stuff">
       <nav class="main-header-top-navigation">
-        <div class="main-header-stuff-wrapper">
-        <a class="main-header-logo"  href="#">
-          <img src="img/logo-technomart.svg" width="108" height="18" alt="«Техномарт»">
-        </a>
-        <form class="main-search" action="https://echo.htmlacademy.ru" method="get">
-          <input id="search" type="search" name="search" placeholder="Поиск:">
-          <label class="search" for="search" class="visually-hidden">Поиск:</label>
-        </form>
-        <div class="container">
-        <ul class="bookmark-basket-links">
-          <li class="bookmark-link">
-            <a href="bookmark.html" class="bookmark-link-inside">Закладки: 0</a>
-          </li>
-          <li class="basket-link">
-            <a href="basket.html" class="basket-link-inside">Корзина: 0</a>
-          </li>
-        </ul>
-        <div class="place-your-order-link">
-          <a href="order-form.html" class="order-form">Оформить заказ</a>
-        </div>
-        </div>
+        <div class="main-navigation-wrapper">
+          <div class="container">
+            <a class="main-header-logo"  href="#">
+              <img src="img/logo-technomart.svg" width="108" height="18" alt="«Техномарт»">
+            </a>
+            <form class="main-search" action="https://echo.htmlacademy.ru" method="get">
+              <input id="search" type="search" name="search" placeholder="Поиск:">
+              <label class="search" for="search" class="visually-hidden">Поиск:</label>
+            </form>
+            <div class="bookmark-link">
+              <a href="bookmark.html" class="bookmark-link-inside">Закладки: 0</a>
+            </div>
+            <div class="basket-link">
+              <a href="basket.html" class="basket-link-inside">Корзина: 0</a>
+            </div>
+            <div class="place-your-order-link">
+              <a href="order-form.html" class="order-form">Оформить заказ</a>
+            </div>
+          </div>
         </div>
       </nav>
-      <section class="header-short-information">
-        <div class="subtitle">
-          <p class="subtitle-info">Интернет-магазин<br> строительных материалов <br>
-            и инструментов для ремонта</p>
-          </div>
-          <div class="contacts">
-            <p class="contacts-phone">+7 (812) 555-05-55</p>
-            <br><p class="contacts-address">г.Санкт-Петербург, ул. Конюшенная, д. 19/8</p>
-          </div>
-          <div class="login-or-registration">
-          <div class="log-in">
-            <a class="log-in-link" href="log-in.html">Войти</a>
-          </div>
-          <div class="registration">
-            <a href="#" class="registration-button">Регистрация</a>
-          </div>
-          </div>
-          <section class="modal modal-log-in" class="visually-hidden">
-            <h4>Личный кабинет</h4>
-            <p>Введите свой логин и пароль.</p>
-            <form class="log-in-form" action="https://echo.htmlacademy.ru" method="post">
-              <p>
-                <label class="visually-hidden" for="user-log-in">Логин</label>
-                <input class="log-in-icon-user" id="user-log-in" type="text" name="log-in" placeholder="Логин">
-              </p>
-              <p>
-                <label class="visually-hidden" for="user-password">Пароль</label>
-                <input class="log-in-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
-              </p>
-              <p class="log-in-password-info">
-                <label class="log-in-checkbox">
-                  <input type="checkbox" name="remember">
-                  Запомните меня
-                </label>
-                <a href="#" class="restore">Я забыл пароль!</a>
-              </p>
-              <button class="button" type="submit">
-                Войти
-              </button>
-            </form>
+      <div class="container">
+        <section class="header-short-information">
+          <div class="main-navigation-wrapper-1">
+            <div class="container">
+              <div class="subtitle">
+                <p class="subtitle-info">Интернет-магазин<br> строительных материалов <br>
+                  и инструментов для ремонта</p>
+                </div>
+                <div class="contacts">
+                  <p class="contacts-phone">+7 (812) 555-05-55</p>
+                  <br><p class="contacts-address">г.Санкт-Петербург, ул. Конюшенная, д. 19/8</p>
+                </div>
+                <div class="log-in">
+                  <a class="log-in-link" href="log-in.html">Войти</a>
+                </div>
+                <div class="registration">
+                  <a href="#" class="registration-button">Регистрация</a>
+                </div>
+                <section class="modal modal-log-in" class="visually-hidden">
+                  <h4>Личный кабинет</h4>
+                  <p>Введите свой логин и пароль.</p>
+                  <form class="log-in-form" action="https://echo.htmlacademy.ru" method="post">
+                    <p>
+                      <label class="visually-hidden" for="user-log-in">Логин</label>
+                      <input class="log-in-icon-user" id="user-log-in" type="text" name="log-in" placeholder="Логин">
+                    </p>
+                    <p>
+                      <label class="visually-hidden" for="user-password">Пароль</label>
+                      <input class="log-in-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+                    </p>
+                    <p class="log-in-password-info">
+                      <label class="log-in-checkbox">
+                        <input type="checkbox" name="remember">
+                        Запомните меня
+                      </label>
+                      <a href="#" class="restore">Я забыл пароль!</a>
+                    </p>
+                    <button class="button" type="submit">
+                      Войти
+                    </button>
+                  </form>
+                </section>
+              </div>
+            </div>
           </section>
-          </section>
+        </div>
+        <nav class="main-navigation">
+          <div class="main-navigation-wrapper-2">
+            <div class="container">
+              <ul class="site-navigation">
+                <li>
+                  <a href="index.html">Главная</a>
+                </li>
+                <li>
+                  <a href="news.html">Компания</a>
+                </li>
+                <li>
+                  <a href="catalog.html">Каталог</a>
+                </li>
+                <li>
+                  <a href="news.html">Новости</a>
+                </li>
+                <li>
+                  <a href="special-offer.html">Спецпредложения</a>
+                </li>
+                <li>
+                  <a href="delivery.html">Доставка</a>
+                </li>
+                <li>
+                  <a href="contacts.html">Контакты</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <nav class="main-navigation">
-            <ul class="site-navigation">
-              <li>
-                <a href="index.html">Главная</a>
-              </li>
-              <li>
-                <a href="news.html">Компания</a>
-              </li>
-              <li>
-                <a href="catalog.html">Каталог</a>
-              </li>
-              <li>
-                <a href="news.html">Новости</a>
-              </li>
-              <li>
-                <a href="special-offer.html">Спецпредложения</a>
-              </li>
-              <li>
-                <a href="delivery.html">Доставка</a>
-              </li>
-              <li>
-                <a href="contacts.html">Контакты</a>
-              </li>
-            </ul>
         </nav>
+      </div>
     </header>
 
     <main class="container">
