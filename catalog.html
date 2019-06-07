@@ -94,76 +94,86 @@
         <h2 class="page-title">Перфораторы</h2>
         <div class="result-request">
           <section class="filters">
-            <h3 class="filters">Фильтр:</h3>
+            <h3 class="filters-1">Фильтр:</h3>
             <div class="half-width-1">
               <label for="price">Цена:</label><br>
-              <input id="price" type="range" min="0" max="30000" value="26000"><br>
-              <input id="weight" type="number" min="0" max="30000" value="0"> -
-              <input id="weight" type="number" min="0" max="30000" value="30000"><br>
+              <div class="price-limit-range">
+                <input id="price" type="range" min="0" max="30000" value="26000"><br>
+              </div>
+              <div class="price-limit-number">
+                <input id="weight" type="number" min="0" max="30000" value="0">
+                <span class="separator"> - </span>
+                <input id="weight" type="number" min="0" max="30000" value="30000"><br>
+              </div>
             </div>
             <form class="filter" method="get" action="https://echo.htmlacademy.ru">
               <fieldset>
-                <legend>Производители:</legend>
-                <ul>
-                  <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="bosch" checked>
-                    <label for="filter-bosch">Bosch</label>
-                  </li>
-                  <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="interskol">
-                    <label for="filter-interskol">Интерскол</label>
-                  </li>
-                  <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="makita" checked>
-                    <label for="filter-makita">Makita</label>
-                  </li>
-                  <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="dewalt" >
-                    <label for="filter-dewalt">Dewalt</label>
-                  </li>
-                  <li class="filter-option">
-                    <input class="filter-input filter-input-checkbox" type="checkbox" name="hitachi">
-                    <label for="filter-hitachi">Hitachi</label>
-                  </li>
-                </ul>
+                <div class="filter-maker">
+                  <legend>Производители:</legend>
+                  <ul class="filter-maker-container">
+                    <li class="filter-option">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="bosch" checked>
+                      <label for="filter-bosch">Bosch</label>
+                    </li>
+                    <li class="filter-option">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="interskol">
+                      <label for="filter-interskol">Интерскол</label>
+                    </li>
+                    <li class="filter-option">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="makita" checked>
+                      <label for="filter-makita">Makita</label>
+                    </li>
+                    <li class="filter-option">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="dewalt" >
+                      <label for="filter-dewalt">Dewalt</label>
+                    </li>
+                    <li class="filter-option">
+                      <input class="filter-input filter-input-checkbox" type="checkbox" name="hitachi">
+                      <label for="filter-hitachi">Hitachi</label>
+                    </li>
+                  </ul>
+                </div>
               </fieldset>
               <fieldset>
-                <legend>Питание</legend>
-                <ul>
-                  <li class="filter-option">
-                    <input class="filter-input filter-input-radio" type="radio" name="product-group" value="feeding-battery" id="filter-feeding-battery" checked>
-                    <label for="filter-feeding-battery">Аккумуляторные</label>
-                  </li>
-                  <li class="filter-option">
-                    <input class="filter-input filter-input-radio" type="radio" name="product-group" value="feeding-mains-supply" id="filter-feeding-mains-supply">
-                    <label for="filter-feeding-mains-supply">Сетевые</label>
-                  </li>
-                </ul>
+                <div class="filter-supply">
+                  <legend>Питание</legend>
+                  <ul class="filter-option-container">
+                    <li class="filter-option">
+                      <input class="filter-input filter-input-radio" type="radio" name="product-group" value="feeding-battery" id="filter-feeding-battery" checked>
+                      <label for="filter-feeding-battery">Аккумуляторные</label>
+                    </li>
+                    <li class="filter-option">
+                      <input class="filter-input filter-input-radio" type="radio" name="product-group" value="feeding-mains-supply" id="filter-feeding-mains-supply">
+                      <label for="filter-feeding-mains-supply">Сетевые</label>
+                    </li>
+                  </ul>
+                </div>
               </fieldset>
               <button type="submit" class="filter-button button">
                 Показать
               </button>
             </form>
           </section>
-          <section class="sorting">
-            <h2>Сортировка:</h2>
-            <ul class="sorting-list">
-              <li class="sorting-item"><a class="active" href="#price" aria-label="Сортировка по цене">По цене</a></li>
-              <li class="sorting-item"><a href="#type" aria-label="Сортировка по типу">По типу</a></li>
-              <li class="sorting-item"><a href="#functional" aria-label="Сортировка по рейтенгу">По функционалу</a></li>
-            </ul>
-            <a class="button-sort down-up" href="#sort-down-up" aria-label="Сортировка сверху-вниз">
-              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                <path fill="#231F20" d="M5.5 0L0 10h11z" />
-              </svg>
-            </a>
-            <a class="button-sort top-down active" href="#sort-top-down" aria-label="Сортировка снизу-вверх">
-              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                <path fill="#231F20" d="M5.5 10L0 0h11" />
-              </svg>
-            </a>
-          </section>
-          <div class="catalog-container">
+
+          <div class="sorting-result">
+            <section class="sorting">
+              <h2>Сортировка:</h2>
+              <ul class="sorting-list">
+                <li class="sorting-item"><a class="active" href="#price" aria-label="Сортировка по цене">По цене</a></li>
+                <li class="sorting-item"><a href="#type" aria-label="Сортировка по типу">По типу</a></li>
+                <li class="sorting-item"><a href="#functional" aria-label="Сортировка по рейтенгу">По функционалу</a></li>
+              </ul>
+              <a class="button-sort down-up" href="#sort-down-up" aria-label="Сортировка сверху-вниз">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                  <path fill="#231F20" d="M5.5 0L0 10h11z" />
+                </svg>
+              </a>
+              <a class="button-sort top-down active" href="#sort-top-down" aria-label="Сортировка снизу-вверх">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                  <path fill="#231F20" d="M5.5 10L0 0h11" />
+                </svg>
+              </a>
+            </section>
             <section class="catalog">
               <ul class="catalog-list">
                 <li class="catalog-item">
@@ -336,14 +346,14 @@
                 </div>
               </li>
             </ul>
-          </div>
-          <ul class="pagination-list">
-            <li class="pagination-item pagination-item-current"><a>1</a></li>
-            <li class="pagination-item"><a href="#">2</a></li>
-            <li class="pagination-item"><a href="#">3</a></li>
-            <li class="pagination-item"><a href="#">Следующая</a></li>
-          </ul>
-        </section>
+            <ul class="pagination-list">
+              <li class="pagination-item pagination-item-current"><a>1</a></li>
+              <li class="pagination-item"><a href="#">2</a></li>
+              <li class="pagination-item"><a href="#">3</a></li>
+              <li class="pagination-item pagination-item-text"><a href="#">Следующая</a></li>
+            </ul>
+          </section>
+        </div>
       </div>
       <div class="buy visually-hidden">
         <section class="adding-a-product">
