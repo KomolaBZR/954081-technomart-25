@@ -1005,7 +1005,7 @@ ul {
 html,
 body {
   min-width:1200px;
-  height: 3151px;
+  height: 100%;
 }
 
 header  {
@@ -1024,7 +1024,6 @@ header  {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 0 10px;
   min-height: 42px;
 }
 
@@ -1062,7 +1061,7 @@ header  {
 .main-header-top-navigation input[type="search"]  {
   width: 270px;
   margin: 0;
-  margin-left: 5px;
+  margin-left: 7px;
   padding: 0;
   padding-left: 25px;
   background-position: left;
@@ -1110,7 +1109,7 @@ header  {
   align-content: center;
   margin: 0;
   padding: 0;
-  min-height: 42px;
+  height: 42px;
 }
 
 .order-navigation a{
@@ -1129,7 +1128,7 @@ header  {
 
 
 
-.container-1 {
+.subtitle-container {
   width: 940px;
   display: flex;
   justify-content: space-around;
@@ -1159,7 +1158,6 @@ header  {
 
 .contacts-phone {
   margin: 0;
-  width:250px;
   padding: 0;
   position: relative;
   height: 45px;
@@ -1173,7 +1171,6 @@ header  {
 .contacts-address {
   margin: 0;
   padding: 0;
-  width: 280px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1189,6 +1186,7 @@ header  {
   flex-direction: column;
   text-align: center;
   justify-content: flex-start;
+
 }
 
 .profile {
@@ -1246,7 +1244,7 @@ header  {
 
 
 
-.container-2 {
+.site-navigation-container {
   width: 940px;
   display: flex;
   justify-content: space-between;
@@ -1330,19 +1328,17 @@ main{
 }
 
 
-.container-main-h2 {
+.container-about-company-and-service{
   width: 940px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin: 0 auto;
   min-height: 540px;
 }
 
 .company {
   width: 540px;
-  margin-bottom: 86px;
-  padding-top: 79px;
 }
 
 .option-service {
@@ -1430,7 +1426,7 @@ footer {
 .footer-container {
   width: 940px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
   min-height: 298px;
 }
@@ -1443,9 +1439,7 @@ footer {
   padding: 0;
 
 }
-.main-footer-logo{
-  margin-top: -;
-}
+
 
 .main-footer-logo::after {
   position: absolute;
@@ -1472,7 +1466,6 @@ footer {
 }
 
 .site-footer-navigation-first-level {
-  width: 540px;
   height: 60px;
   align-items: flex-end;
   flex-wrap: wrap;
@@ -1577,8 +1570,6 @@ footer {
 
   width: 940px;
   margin: 0 auto;
-  padding: 0 10px;
-  min-height: 1500px;
 
 }
 
@@ -1586,7 +1577,9 @@ footer {
   width: 373px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 21px 0;
+  min-height: 61px;
 
 }
 
@@ -1608,6 +1601,7 @@ footer {
 .result-request {
   display: flex;
   justify-content: space-between;
+  width: 220px;
 }
 
 
@@ -1657,7 +1651,6 @@ footer {
   margin: 10px 0;
   overflow: hidden;
   background: #f7f3ec;
-
 }
 
 
@@ -1678,7 +1671,6 @@ input[type="range"] {
   justify-content: space-around;
   position: relative;
   height: 40px;
-  margin: 10px 0;
   overflow: hidden;
   background: #ffffff;
 }
@@ -1686,7 +1678,7 @@ input[type="range"] {
 
 input[type="number"]{
   border: none;
-  width: 85px;
+  width: 100px;
   padding: 0px 2px 0px 8px;
   height: 38px;
   font-size: 17px;
@@ -1779,6 +1771,8 @@ legend {
   padding: 0;
   border-radius: 3%;
   text-transform: uppercase;
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
 }
 
 .sorting-result {
@@ -1869,17 +1863,15 @@ legend {
 /* ----- main-bottom ----- */
 .container-info-perforator {
   background-color: #f2f6f8;
-  min-height: 262px;
+  min-height: 234px;
 }
 
 .info-perforator {
   width: 940px;
   margin: 0 auto;
-  padding: 0 10px;
 
 }
 
 .info-perforator h2 {
-  margin: 28px 0;
-  padding-top: 69px;
+  padding-top: 62px;
 }
