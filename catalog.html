@@ -23,7 +23,7 @@
           </div>
           <div class="order-navigation">
             <a href="bookmark.html" class="bookmark-link-inside">Закладки: 0</a>
-            <a href="basket.html" class="basket-link-inside" class="not-empty">Корзина: 10</a>
+            <a href="basket.html" class="basket-link-inside not-empty">Корзина: 10</a>
             <a href="order-form.html" class="order-form">Оформить заказ</a>
           </div>
         </div>
@@ -101,41 +101,38 @@
                 <input id="price" type="range" min="0" max="30000" value="26000"><br>
               </div>
               <div class="price-limit-number">
-                <input id="weight" type="number" min="0" max="30000" value="0">
+                <input id="weight-min" type="number" min="0" max="30000" value="0">
                 <span class="separator"> - </span>
-                <input id="weight" type="number" min="0" max="30000" value="30000"><br>
+                <input id="weight-max" type="number" min="0" max="30000" value="30000"><br>
               </div>
             </div>
             <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-              <fieldset>
-                <div class="filter-maker">
+              <fieldset class="filter-maker">
                   <legend>Производители:</legend>
                   <ul class="filter-maker-container">
                     <li class="filter-option">
                       <input class="filter-input filter-input-checkbox" type="checkbox" name="bosch" checked>
-                      <label for="filter-bosch">Bosch</label>
+                      <label for="filter-bosch" id="maker-Bosch">Bosch</label>
                     </li>
                     <li class="filter-option">
                       <input class="filter-input filter-input-checkbox" type="checkbox" name="interskol">
-                      <label for="filter-interskol">Интерскол</label>
+                      <label for="filter-interskol" id="maker-interskol">Интерскол</label>
                     </li>
                     <li class="filter-option">
                       <input class="filter-input filter-input-checkbox" type="checkbox" name="makita" checked>
-                      <label for="filter-makita">Makita</label>
+                      <label for="filter-makita" id="maker-makita">Makita</label>
                     </li>
                     <li class="filter-option">
                       <input class="filter-input filter-input-checkbox" type="checkbox" name="dewalt" >
-                      <label for="filter-dewalt">Dewalt</label>
+                      <label for="filter-dewalt" id="maker-dewalt">Dewalt</label>
                     </li>
                     <li class="filter-option">
                       <input class="filter-input filter-input-checkbox" type="checkbox" name="hitachi">
-                      <label for="filter-hitachi">Hitachi</label>
+                      <label for="filter-hitachi" id="maker-hitachi">Hitachi</label>
                     </li>
                   </ul>
-                </div>
               </fieldset>
-              <fieldset>
-                <div class="filter-supply">
+              <fieldset class="filter-supply">
                   <legend>Питание</legend>
                   <ul class="filter-option-container">
                     <li class="filter-option">
@@ -147,7 +144,6 @@
                       <label for="filter-feeding-mains-supply">Сетевые</label>
                     </li>
                   </ul>
-                </div>
               </fieldset>
               <button type="submit" class="filter-button button">
                 Показать

@@ -1692,13 +1692,9 @@ input[type="number"]{
   background-color: #ffffff;
 
 }
-fieldset {
+fieldset .filter-maker {
   border: none;
   padding: 0;
-}
-
-
-.filter-maker {
   padding-bottom: 2px;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
@@ -1821,7 +1817,7 @@ background-position: 0 0;
 
 
 
-.filter-supply {
+fieldset .filter-supply {
   display: block;
   height: 200px;
   width: 220px;
