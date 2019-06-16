@@ -46,30 +46,6 @@
                 <a href="#" class="registration-button">Регистрация</a>
               </div>
             </div>
-            <section class="modal modal-log-in visually-hidden">
-              <h4>Личный кабинет</h4>
-              <p>Введите свой логин и пароль.</p>
-              <form class="log-in-form" action="https://echo.htmlacademy.ru" method="post">
-                <p>
-                  <label class="visually-hidden" for="user-log-in">Логин</label>
-                  <input class="log-in-icon-user" id="user-log-in" type="text" name="log-in" placeholder="Логин">
-                </p>
-                <p>
-                  <label class="visually-hidden" for="user-password">Пароль</label>
-                  <input class="log-in-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
-                </p>
-                <p class="log-in-password-info">
-                  <label class="log-in-checkbox">
-                    <input type="checkbox" name="remember">
-                    Запомните меня
-                  </label>
-                  <a href="#" class="restore">Я забыл пароль!</a>
-                </p>
-                <button class="button" type="submit">
-                  Войти
-                </button>
-              </form>
-            </section>
           </div>
         </section>
         <nav class="main-navigation">
@@ -433,5 +409,30 @@
               </div>
             </section>
           </footer>
+
+          <section class="modal modal-login">
+  <h2>Личный кабинет</h2>
+  <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
+  <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+    <p>
+      <label class="visually-hidden" for="user-login">Логин</label>
+      <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+    </p>
+    <p>
+      <label class="visually-hidden" for="user-password">Пароль</label>
+      <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+    </p>
+    <p class="login-help">
+      <label class="login-checkbox">
+        <input type="checkbox" name="remember" class="visually-hidden">
+        <span class="checkbox-indicator"></span>
+        Запомните меня
+      </label>
+      <a class="restore" href="#">Я забыл пароль!</a>
+    </p>
+    <button class="button" type="submit">Войти</button>
+  </form>
+  <button class="modal-close" type="button">Закрыть</button>
+</section>
         </body>
         </html>
