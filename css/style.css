@@ -1781,11 +1781,11 @@ legend {
   width: 12px;
   height: 12px;
   top: 4px;
-left: -38px;
+  left: -38px;
 
-background-image: url("../img/checkbox-on.svg");
-background-repeat: no-repeat;
-background-position: 0 0;
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 
@@ -2254,8 +2254,8 @@ input[type="radio"].visually-hidden {
 
 
 .catalog-item {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .catalog .row {
@@ -2285,8 +2285,8 @@ input[type="radio"].visually-hidden {
 
 .modal-close {
   position: absolute;
-top: 0;
-right: -34px;
+  top: 0;
+  right: -34px;
   width: 22px;
   height: 22px;
 
@@ -2343,15 +2343,15 @@ right: -34px;
 .login-form input[type="text"],
 .login-form input[type="password"] {
   box-sizing: border-box;
-    width: 300px;
-    padding: 10px 15px;
-    padding-right: 40px;
+  width: 300px;
+  padding: 10px 15px;
+  padding-right: 40px;
   font: inherit;
   color: #000000;
   text-transform: uppercase;
 
-background-color: #f9f6f3;
-border: 2px solid #000000;
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
 }
 
 .login-form input:focus {
